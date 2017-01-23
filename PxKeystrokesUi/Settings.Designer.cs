@@ -448,7 +448,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(268, 13);
             this.label1.TabIndex = 34;
-            this.label1.Text = "Press and hold Ctrl + Shift + Alt to reveal setting buttons";
+            this.label1.Text = "Press and hold Ctrl + Shift + LeftWin + Alt to reveal setting buttons";
             // 
             // linkLabel1
             // 

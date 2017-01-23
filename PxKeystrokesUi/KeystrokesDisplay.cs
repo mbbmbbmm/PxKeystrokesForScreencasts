@@ -108,7 +108,7 @@ namespace PxKeystrokesUi
 
         void addWelcomeInfo()
         {
-            MessageBox.Show("PyKeystrokesForScreencasts:\r\n\r\nHold Ctrl + Alt + Shift to move and resize. \n\rUse the tray icon to access settings.");
+            MessageBox.Show("PyKeystrokesForScreencasts:\r\n\r\nHold Ctrl + Alt + LeftWin + Shift to move and resize. \n\rUse the tray icon to access settings.");
         }
 
         #endregion
@@ -117,7 +117,7 @@ namespace PxKeystrokesUi
 
         private void CheckForSettingsMode(KeystrokeEventArgs e)
         {
-            if (e.Ctrl && e.Shift && e.Alt)
+            if (e.Ctrl && e.Shift && e.Alt && e.LWin)
                 ActivateSettingsMode();
             else
                 ActivateDisplayOnlyMode(false);

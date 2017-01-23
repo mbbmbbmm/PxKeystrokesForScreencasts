@@ -57,7 +57,7 @@
     <ApplicationIcon>app.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>phaiax.key.pfx</AssemblyOriginatorKeyFile>
@@ -165,6 +165,7 @@
     <EmbeddedResource Include="Settings.resx">
       <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="mbbmbbmm.pfx" />
     <None Include="phaiax.key.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">

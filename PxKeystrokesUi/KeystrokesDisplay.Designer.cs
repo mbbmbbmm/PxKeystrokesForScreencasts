@@ -178,7 +178,7 @@
             // 
             this.helpHoldCtrlAltShiftToolStripMenuItem.Name = "helpHoldCtrlAltShiftToolStripMenuItem";
             this.helpHoldCtrlAltShiftToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.helpHoldCtrlAltShiftToolStripMenuItem.Text = "Help: Hold Ctrl + Alt + Shift";
+            this.helpHoldCtrlAltShiftToolStripMenuItem.Text = "Help: Hold Ctrl + Alt + LeftWin + Shift";
             // 
             // reportErrorsToolStripMenuItem
             // 
