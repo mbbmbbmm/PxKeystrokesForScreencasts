@@ -2,13 +2,13 @@
 
 Displays Keystrokes in an overlay window. (Windows 8)
 
-Press <code>Ctrl + Shift + Alt</code> to reveal configuration options, resize, move or close the window.
+Press <code>Ctrl + Shift + LeftWin + Alt</code> to reveal configuration options, resize, move or close the window.
 
 Demo Video: https://www.youtube.com/watch?v=Ud3tqB8TMVc
 
 Screenshots below.
 
-This is Open Source. If you miss a feature, go for it and send a Pull-Request afterwards!
+This is not the original repository, but a fork!
 
 # Features
  - Displays special keys (volume up: 🔊⏫) and shortcuts
@@ -23,10 +23,10 @@ This is Open Source. If you miss a feature, go for it and send a Pull-Request af
 
 # Download
 
-<a href="https://github.com/Phaiax/PxKeystrokesForScreencasts/raw/master/Releases/v0.3.1/PxKeystrokesUi.exe">Download PxKeystrokesUi.exe 0.3.1</a> (most recent, 2016-01-31, Win10 tested)
+<a href="https://github.com/mbbmbbmm/PxKeystrokesForScreencasts/raw/resizeKeys/Releases/v0.3.1b/PxKeystrokesUi.exe">Download PxKeystrokesUi.exe 0.3.1b</a> (with augmented resize chord)
 
 
-This security alert will appear. Click the <code>More Info</code> link, and then <code>Execute anyway</code>.
+If this security alert appears, click the <code>More Info</code> link, and then <code>Execute anyway</code>.
 
 <img src="https://raw.githubusercontent.com/Phaiax/PxKeystrokesForScreencasts/master/Screenshots/Smartscreen1.png" alt="SmartScreen filter dialog.">
 
@@ -43,6 +43,9 @@ You can find the exe in the <code>Releases</code> folder
 - v0.2.0 (indicator for cursor position, history timeout, bugfixes, documentation)
 - v0.3.0 (indicator for pressed buttons, deadkey fixes, backspace functionality)
 - v0.3.1 (new icons, little fixes and internal improvements)
+
+this fork only:
+- v0.3.1b (augmented resize chord for e.g. Blender users)
 
 ## Requirements
 Windows 8 or 10
