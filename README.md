@@ -8,7 +8,9 @@ Demo Video: https://www.youtube.com/watch?v=Ud3tqB8TMVc
 
 Screenshots below.
 
-This is not the original repository, but a fork!
+This is not the original repository, but a fork! 
+
+I added the <code>LeftWin</code> key to the resize key chord to make it work with programs that use the old combination, e.g. Blender.
 
 # Features
  - Displays special keys (volume up: 🔊⏫) and shortcuts
